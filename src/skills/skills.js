@@ -4,12 +4,12 @@ function Skills() {
 
   const skills = {
     Frontend: [
-      {name: 'React Js', icon: "https://cdn.worldvectorlogo.com/logos/react-2.svg",},
+      {name: 'React', icon: "https://cdn.worldvectorlogo.com/logos/react-2.svg",},
       {name: 'Redux', icon: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",},
       { name: 'Angular', icon: 'https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg' },
-      { name: 'HTML', icon: 'https://www.w3.org/html/logo/badge/html5-badge-h-solo.png' },
-      { name: 'CSS', icon: 'https://cdn.worldvectorlogo.com/logos/css-3.svg' },
-      { name: 'JavaScript Es6', icon: 'https://cdn.worldvectorlogo.com/logos/javascript-1.svg' },
+      { name: 'HTML 5', icon: 'https://www.w3.org/html/logo/badge/html5-badge-h-solo.png' },
+      { name: 'CSS 3', icon: 'https://cdn.worldvectorlogo.com/logos/css-3.svg' },
+      { name: 'JavaScript (Es6+)', icon: 'https://cdn.worldvectorlogo.com/logos/javascript-1.svg' },
       { name: 'Bootstrap', icon: 'https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg' },
     ],
     Backend: [
@@ -18,7 +18,7 @@ function Skills() {
       { name: 'Typescript', icon: 'https://cdn.worldvectorlogo.com/logos/typescript.svg' },
       // { name: 'MySQL', icon: '💾' },
       { name: 'MongoDB', icon: 'https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg' },
-      { name: 'Firebase', icon: 'https://cdn.worldvectorlogo.com/logos/firebase-1.svg' },
+      // { name: 'Firebase', icon: 'https://cdn.worldvectorlogo.com/logos/firebase-1.svg' },
     ],
     Others: [
       { name: 'Git', icon: 'https://cdn.worldvectorlogo.com/logos/git-icon.svg' },

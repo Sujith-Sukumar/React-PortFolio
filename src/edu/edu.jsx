@@ -13,8 +13,8 @@ function Edu() {
           <div className="timeline-card">
             <h3>Diploma In Full Stack Development, Kerala</h3>
             <p className="subheading">Mern Stack Development & Mean Stack Development </p>
+            <p className="subheading">Council for Technical Development & Continuing Academic Educational and Scientific Studies (CTDS)</p>
             <p className="duration">June 2024 - Mar 2025</p>
-            <p><strong>Grade:</strong> 8.02 CGPA</p>
             <p className="description">
               As a Full Stack Development student, I am learning both the MERN (MongoDB, Express.js, React, Node.js) and MEAN (MongoDB, Express.js, Angular, Node.js) stacks, which are powerful JavaScript-based frameworks for building dynamic web applications. These stacks enable me to develop complete, responsive, and scalable web solutions from front-end to back-end.
             </p>

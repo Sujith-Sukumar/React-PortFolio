@@ -1,6 +1,6 @@
 import React from 'react';
 import '../about/about.css';
-import profile from './image/Wbb.jpg';
+import profile from './image/about-img.jpg';
 import { ReactTyped } from 'react-typed'
 
 function About() {
@@ -11,7 +11,7 @@ function About() {
         <div className="hero-section">
           <div className="hero-text">
             <h1>Hi, I am</h1>
-            <h2>Sujith k</h2>
+            <h2>SUJITH K</h2>
             <h3>I am a {' '} <span className="highlight"> < ReactTyped
               strings={['Full Stack Developer', 'Mern Stack Developer', 'Mean Stack Developer']}
               typeSpeed={80}
