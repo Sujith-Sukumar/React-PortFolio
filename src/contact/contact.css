@@ -1,0 +1,123 @@
+.contact-section {
+    /* background: linear-gradient(135deg, #1c0d2b, #0f1c2f); */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-subtitle {
+    color: #cccccc;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Form Container */
+  .contact-form {
+    background-color: #11111d;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  /* Inputs */
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px 15px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #1a1a2e;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #888;
+  }
+  
+  /* Button */
+  .contact-form button {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #a855f7, #ec4899);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background: linear-gradient(to right, #c084fc, #f472b6);
+  }
+  .footer-section {
+    background-color: #11111d;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    clip-path: polygon(0, 10%, 1% 0%, 1% 1%, 10 100%);
+  }
+  
+  .footer-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #a855f7;
+    margin-bottom: 20px;
+  }
+  
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .footer-nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.05rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav a:hover {
+    color: #a855f7;
+  }
+  
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.3rem;
+  }
+  
+  .footer-socials a {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-socials a:hover {
+    color: #a855f7;
+  }
+  
+  

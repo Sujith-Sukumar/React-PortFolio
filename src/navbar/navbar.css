@@ -1,0 +1,103 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  position: fixed;        
+  top: 0;                 
+  left: 0;
+  width: 100%;           
+  z-index: 1000;          
+  background-color: #0f1c2f; 
+}
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color: #9d4edd;
+  }
+  .container {
+    padding: 1% 7.5%;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li:hover {
+    color: #9d4edd;
+  }
+  
+  .github-btn {
+    padding: 10px 20px;
+    border: 2px solid #9d4edd;
+    background: transparent;
+    color: #9d4edd;
+    border-radius: 23px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.5s;
+  }
+  
+  .github-btn:hover {
+    background: #9d4edd;
+    color: white;
+  }
+  .github-btn:hover a {
+    color: white !important;
+    transition: all 0.5s;
+  }
+  .hamburger {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background: #1a1a1a85;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      padding: 20px;
+      display: none;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .github-btn {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      font-size: 1.6rem;
+    }
+    .container {
+        padding: 4% 5%;
+      }
+      
+  }
+  
