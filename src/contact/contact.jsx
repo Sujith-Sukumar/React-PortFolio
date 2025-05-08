@@ -84,7 +84,7 @@ function Contact() {
           <a href="https://wa.me/8086445263" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp />
           </a>
-          <a href="mailto:sujithsukumar@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:sujithsukumarofficial@gmail.com" target="_blank" rel="noopener noreferrer">
             <FaEnvelope />
           </a>
         </div>
