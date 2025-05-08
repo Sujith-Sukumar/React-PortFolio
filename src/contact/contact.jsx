@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useRef } from "react"
 import '../contact/contact.css'
-import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 function Contact() {
   const nameRef = useRef()
@@ -80,6 +80,12 @@ function Contact() {
           </a>
           <a href="https://www.instagram.com/_sujiith_" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
+          </a>
+          <a href="https://wa.me/8086445263" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp />
+          </a>
+          <a href="mailto:sujithsukumar@gmail.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope />
           </a>
         </div>
       </footer>
