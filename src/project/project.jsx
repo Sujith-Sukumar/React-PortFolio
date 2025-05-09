@@ -21,7 +21,7 @@ function Project() {
       link: 'https://github.com/Sujith-Sukumar/Amazone-Clone.git'
     },
     {
-      title: 'Agreement Pronting',
+      title: 'Agreement Printing',
       date: 'Oct 2024',
       description: 'Developed and delivered a system for generating and printing customized agreements using JavaScript',
       tech: ['React JS', 'Firebase', 'Firestore', 'Node JS'],
