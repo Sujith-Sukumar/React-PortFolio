@@ -13,6 +13,15 @@ function Project() {
 
     },
     {
+      title: 'Product Managment (MERN)',
+      date: 'May 2025',
+      description: 'Built a dynamic product management dashboard with category, subcategory, and product CRUD operations',
+      tech: ['React JS', 'Express', 'Node.JS', 'MongoDB', 'Bootstrap'],
+      image: 'product.png',
+      link: 'https://product-management-1-m18d.onrender.com',
+
+    },
+    {
       title: 'Amazone-Clone (Angular)',
       date: 'Dec 2024',
       description: 'Developed a Amazone-inspired e-commerce platform using Angular for seamless front-end functionality',
